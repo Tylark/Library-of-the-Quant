@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/math-foundations/qrk-0003-quant-calculus-foundations-market-models-manual.pdf`
+`manuals/pdf/calculus/qrk-0003-quant-calculus-foundations-market-models-manual.pdf`
 
 ## Metadata
 
 - Original filename: `quant_calculus_foundations_market_models_manual.pdf`
+- Primary category: Calculus
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Beginner
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review

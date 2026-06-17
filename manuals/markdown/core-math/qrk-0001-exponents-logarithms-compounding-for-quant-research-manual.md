@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/math-foundations/qrk-0001-exponents-logarithms-compounding-for-quant-research-manual.pdf`
+`manuals/pdf/core-math/qrk-0001-exponents-logarithms-compounding-for-quant-research-manual.pdf`
 
 ## Metadata
 
 - Original filename: `exponents_logarithms_compounding_for_quant_research_manual.pdf`
+- Primary category: Core Math
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Beginner
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review

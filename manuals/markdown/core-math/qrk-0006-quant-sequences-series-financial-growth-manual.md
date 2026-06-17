@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/math-foundations/qrk-0006-quant-sequences-series-financial-growth-manual.pdf`
+`manuals/pdf/core-math/qrk-0006-quant-sequences-series-financial-growth-manual.pdf`
 
 ## Metadata
 
 - Original filename: `quant_sequences_series_financial_growth_manual.pdf`
+- Primary category: Core Math
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Beginner
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review

@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/math-foundations/qrk-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
+`manuals/pdf/core-math/qrk-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
 
 ## Metadata
 
 - Original filename: `quant_arithmetic_ratios_log_returns_manual.pdf`
+- Primary category: Core Math
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Beginner
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review

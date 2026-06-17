@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/derivatives-rates/qrk-0004-quant-derivatives-rates-sensitivity-manual.pdf`
+`manuals/pdf/calculus/qrk-0004-quant-derivatives-rates-sensitivity-manual.pdf`
 
 ## Metadata
 
 - Original filename: `quant_derivatives_rates_sensitivity_manual.pdf`
+- Primary category: Calculus
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Intermediate
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review

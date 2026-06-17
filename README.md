@@ -13,10 +13,34 @@ This repository is for learners, researchers, builders, and technically curious 
 
 PDFs are treated as finished artifacts. Markdown files are companion notes, not replacements for the PDFs. Every manual should eventually receive a sequential QRK ID, and every PDF should eventually have a matching Markdown note.
 
-## Current Manual Categories
+## Manual Categories
 
-- `manuals/pdf/math-foundations/`
-- `manuals/pdf/derivatives-rates/`
+The library uses these canonical categories:
+
+- Core Math
+- Algebra
+- Functions
+- Calculus
+- Linear Algebra
+- Optimization
+- Probability
+- Statistics
+- Research Methodology
+- Time Series
+- Data Engineering
+- Data Cleaning
+- Feature Engineering
+- Python for Quant Research
+- Strategy Development
+- Backtesting
+- Validation
+- Simulation
+- Risk Management
+- Portfolio Management
+- Market Mechanics
+- Market Microstructure
+- Machine Learning
+- Quant System Design
 
 The matching companion notes use the same category folders under `manuals/markdown/`.
 

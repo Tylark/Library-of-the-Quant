@@ -6,13 +6,14 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/math-foundations/qrk-0005-functions-graphs-transformations-field-guide.pdf`
+`manuals/pdf/functions/qrk-0005-functions-graphs-transformations-field-guide.pdf`
 
 ## Metadata
 
 - Original filename: `Quant_Functions_Graphs_Transformations_Field_Guide.pdf`
+- Primary category: Functions
 - Topics: Needs review
-- Difficulty: Needs review
+- Difficulty: Beginner
 - Formulas: Needs review
 - Implementation traps: Needs review
 - System design references: Needs review
