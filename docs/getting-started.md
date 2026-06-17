@@ -4,10 +4,15 @@ Library of the Quant is organized around finished educational PDF manuals and co
 
 ## Where Things Live
 
-- Finished PDFs: `manuals/pdf/`
-- Companion Markdown notes: `manuals/markdown/`
+- Finished PDFs: `manuals/pdf/<category>/`
+- Companion Markdown notes: `manuals/markdown/<category>/`
 - Library indexes: `indexes/`
 - Project documentation: `docs/`
+
+## Current Categories
+
+- `math-foundations`
+- `derivatives-rates`
 
 ## How To Read The Library
 

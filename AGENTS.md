@@ -12,8 +12,8 @@ Instructions for future Codex runs and repository automation.
 
 ## Storage Rules
 
-- Store final PDFs in `manuals/pdf/`.
-- Store companion Markdown notes in `manuals/markdown/`.
+- Store final PDFs in `manuals/pdf/<category>/`.
+- Store companion Markdown notes in `manuals/markdown/<category>/`.
 - PDFs are finished artifacts.
 - Markdown files are companion lookup notes.
 

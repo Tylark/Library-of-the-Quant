@@ -6,7 +6,7 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/qrk-0006-quant-sequences-series-financial-growth-manual.pdf`
+`manuals/pdf/math-foundations/qrk-0006-quant-sequences-series-financial-growth-manual.pdf`
 
 ## Metadata
 

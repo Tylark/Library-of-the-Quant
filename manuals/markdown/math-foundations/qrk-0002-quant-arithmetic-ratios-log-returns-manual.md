@@ -1,4 +1,4 @@
-# QRK-0003: Quant Calculus Foundations Market Models Manual
+# QRK-0002: Quant Arithmetic Ratios Log Returns Manual
 
 ## Status
 
@@ -6,11 +6,11 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/qrk-0003-quant-calculus-foundations-market-models-manual.pdf`
+`manuals/pdf/math-foundations/qrk-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
 
 ## Metadata
 
-- Original filename: `quant_calculus_foundations_market_models_manual.pdf`
+- Original filename: `quant_arithmetic_ratios_log_returns_manual.pdf`
 - Topics: Needs review
 - Difficulty: Needs review
 - Formulas: Needs review

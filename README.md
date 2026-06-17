@@ -6,12 +6,19 @@ This repository is for learners, researchers, builders, and technically curious 
 
 ## Library Organization
 
-- `manuals/pdf/` stores finished PDF manuals.
-- `manuals/markdown/` stores companion Markdown lookup notes for those manuals.
+- `manuals/pdf/` stores finished PDF manuals, separated by category.
+- `manuals/markdown/` stores companion Markdown lookup notes, separated by the same categories as the PDFs.
 - `indexes/` stores cross-library lookup indexes by topic, difficulty, formulas, implementation traps, and system design concepts.
 - `docs/` stores project-facing documentation and is prepared for future GitHub Pages use.
 
 PDFs are treated as finished artifacts. Markdown files are companion notes, not replacements for the PDFs. Every manual should eventually receive a sequential QRK ID, and every PDF should eventually have a matching Markdown note.
+
+## Current Manual Categories
+
+- `manuals/pdf/math-foundations/`
+- `manuals/pdf/derivatives-rates/`
+
+The matching companion notes use the same category folders under `manuals/markdown/`.
 
 ## Indexes
 

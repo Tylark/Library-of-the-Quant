@@ -1,4 +1,4 @@
-# QRK-0004: Quant Derivatives Rates Sensitivity Manual
+# QRK-0001: Exponents Logarithms Compounding for Quant Research Manual
 
 ## Status
 
@@ -6,11 +6,11 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/qrk-0004-quant-derivatives-rates-sensitivity-manual.pdf`
+`manuals/pdf/math-foundations/qrk-0001-exponents-logarithms-compounding-for-quant-research-manual.pdf`
 
 ## Metadata
 
-- Original filename: `quant_derivatives_rates_sensitivity_manual.pdf`
+- Original filename: `exponents_logarithms_compounding_for_quant_research_manual.pdf`
 - Topics: Needs review
 - Difficulty: Needs review
 - Formulas: Needs review

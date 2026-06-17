@@ -1,4 +1,4 @@
-# QRK-0002: Quant Arithmetic Ratios Log Returns Manual
+# QRK-0005: Functions Graphs Transformations Field Guide
 
 ## Status
 
@@ -6,11 +6,11 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/qrk-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
+`manuals/pdf/math-foundations/qrk-0005-functions-graphs-transformations-field-guide.pdf`
 
 ## Metadata
 
-- Original filename: `quant_arithmetic_ratios_log_returns_manual.pdf`
+- Original filename: `Quant_Functions_Graphs_Transformations_Field_Guide.pdf`
 - Topics: Needs review
 - Difficulty: Needs review
 - Formulas: Needs review
