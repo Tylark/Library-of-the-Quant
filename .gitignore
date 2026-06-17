@@ -1,0 +1,3 @@
+# Keep source PDFs in the repository root local unless explicitly requested.
+/*.pdf
+
