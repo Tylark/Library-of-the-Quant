@@ -1,4 +1,4 @@
-# QRK-0004: Quant Derivatives Rates Sensitivity Manual
+# LOTQ-0004: Quant Derivatives Rates Sensitivity Manual
 
 ## Status
 
@@ -6,7 +6,7 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/calculus/qrk-0004-quant-derivatives-rates-sensitivity-manual.pdf`
+`manuals/pdf/calculus/lotq-0004-quant-derivatives-rates-sensitivity-manual.pdf`
 
 ## Metadata
 

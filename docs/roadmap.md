@@ -10,7 +10,7 @@
 ## Phase 2: Manual Intake
 
 - Move reviewed PDFs into `manuals/pdf/`.
-- Assign sequential QRK IDs.
+- Assign sequential LOTQ IDs.
 - Create matching companion Markdown notes.
 - Mark uncertain metadata as `Needs review`.
 - Update all relevant indexes.

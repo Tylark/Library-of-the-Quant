@@ -1,4 +1,4 @@
-# QRK-0002: Quant Arithmetic Ratios Log Returns Manual
+# LOTQ-0002: Quant Arithmetic Ratios Log Returns Manual
 
 ## Status
 
@@ -6,7 +6,7 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/core-math/qrk-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
+`manuals/pdf/core-math/lotq-0002-quant-arithmetic-ratios-log-returns-manual.pdf`
 
 ## Metadata
 

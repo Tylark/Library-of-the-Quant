@@ -1,4 +1,4 @@
-# QRK-0001: Exponents Logarithms Compounding for Quant Research Manual
+# LOTQ-0006: Quant Sequences Series Financial Growth Manual
 
 ## Status
 
@@ -6,11 +6,11 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/core-math/qrk-0001-exponents-logarithms-compounding-for-quant-research-manual.pdf`
+`manuals/pdf/core-math/lotq-0006-quant-sequences-series-financial-growth-manual.pdf`
 
 ## Metadata
 
-- Original filename: `exponents_logarithms_compounding_for_quant_research_manual.pdf`
+- Original filename: `quant_sequences_series_financial_growth_manual.pdf`
 - Primary category: Core Math
 - Topics: Needs review
 - Difficulty: Beginner

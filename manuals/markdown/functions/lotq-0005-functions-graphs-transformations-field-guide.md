@@ -1,4 +1,4 @@
-# QRK-0003: Quant Calculus Foundations Market Models Manual
+# LOTQ-0005: Functions Graphs Transformations Field Guide
 
 ## Status
 
@@ -6,12 +6,12 @@ Needs review.
 
 ## PDF
 
-`manuals/pdf/calculus/qrk-0003-quant-calculus-foundations-market-models-manual.pdf`
+`manuals/pdf/functions/lotq-0005-functions-graphs-transformations-field-guide.pdf`
 
 ## Metadata
 
-- Original filename: `quant_calculus_foundations_market_models_manual.pdf`
-- Primary category: Calculus
+- Original filename: `Quant_Functions_Graphs_Transformations_Field_Guide.pdf`
+- Primary category: Functions
 - Topics: Needs review
 - Difficulty: Beginner
 - Formulas: Needs review

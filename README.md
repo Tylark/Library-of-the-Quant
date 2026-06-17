@@ -11,7 +11,7 @@ This repository is for learners, researchers, builders, and technically curious 
 - `indexes/` stores cross-library lookup indexes by topic, difficulty, formulas, implementation traps, and system design concepts.
 - `docs/` stores project-facing documentation and is prepared for future GitHub Pages use.
 
-PDFs are treated as finished artifacts. Markdown files are companion notes, not replacements for the PDFs. Every manual should eventually receive a sequential QRK ID, and every PDF should eventually have a matching Markdown note.
+PDFs are treated as finished artifacts. Markdown files are companion notes, not replacements for the PDFs. Every manual should eventually receive a sequential LOTQ ID, and every PDF should eventually have a matching Markdown note.
 
 ## Manual Categories
 

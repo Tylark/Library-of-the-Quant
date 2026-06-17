@@ -10,17 +10,17 @@ Library of the Quant is an educational PDF library. Contributions should preserv
 - Store final PDFs in `manuals/pdf/<category>/`.
 - Store companion Markdown notes in `manuals/markdown/<category>/`.
 - Use consistent naming.
-- Assign QRK IDs sequentially when adding manuals.
+- Assign LOTQ IDs sequentially when adding manuals.
 - Update relevant indexes whenever manuals are added.
 - Mark uncertain or unverified metadata as `Needs review`.
 
 ## Naming
 
-Use descriptive lowercase filenames with hyphens where practical. Keep the QRK ID visible once assigned.
+Use descriptive lowercase filenames with hyphens where practical. Keep the LOTQ ID visible once assigned.
 
 Example:
 
 ```text
-qrk-0001-probability-foundations-field-guide.pdf
-qrk-0001-probability-foundations-field-guide.md
+lotq-0001-probability-foundations-field-guide.pdf
+lotq-0001-probability-foundations-field-guide.md
 ```

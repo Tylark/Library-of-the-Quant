@@ -19,8 +19,8 @@ Instructions for future Codex runs and repository automation.
 
 ## Manual Tracking
 
-- Assign QRK IDs sequentially.
-- Every manual should eventually receive a QRK ID.
+- Assign LOTQ IDs sequentially.
+- Every manual should eventually receive a LOTQ ID.
 - Every PDF should eventually have a matching Markdown note.
 - Preserve naming consistency across PDFs, Markdown notes, and index entries.
 
