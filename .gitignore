@@ -3,3 +3,9 @@
 
 # Local render previews and scratch outputs.
 tmp/
+
+# Local intake folder for new PDFs before they are cataloged.
+PDF Drop/
+
+# Python local cache.
+__pycache__/

@@ -27,27 +27,35 @@ Lookup index organized by subject area.
 
 - LOTQ-0010: [Quant Linear Algebra Foundations for Quant Research Manual](../manuals/pdf/linear-algebra/lotq-0010-quant-linear-algebra-foundations-for-quant-research-manual.pdf)
 - LOTQ-0011: [Quant Vectors Matrices Factor Models Manual](../manuals/pdf/linear-algebra/lotq-0011-quant-vectors-matrices-factor-models-manual.pdf)
-
+- LOTQ-0018: [Eigenvalues, PCA, and Dimensionality Reduction](../manuals/pdf/linear-algebra/lotq-0018-eigenvalues-pca-dimensionality-reduction.pdf)
 ## Optimization
 
-- Needs review
-
+- LOTQ-0015: [Constrained Optimization and Portfolio Weights](../manuals/pdf/optimization/lotq-0015-constrained-optimization-and-portfolio-weights.pdf)
+- LOTQ-0022: [Optimization Foundations for Quant Research](../manuals/pdf/optimization/lotq-0022-optimization-foundations-for-quant-research.pdf)
 ## Probability
 
-- Needs review
-
+- LOTQ-0013: [Conditional Probability and Bayes' Rule](../manuals/pdf/probability/lotq-0013-conditional-probability-and-bayes-rule.pdf)
+- LOTQ-0016: [Correlation, Covariance, and Dependence](../manuals/pdf/probability/lotq-0016-correlation-covariance-and-dependence.pdf)
+- LOTQ-0019: [Expectation, Variance, Skewness, and Kurtosis](../manuals/pdf/probability/lotq-0019-expectation-variance-skewness-and-kurtosis.pdf)
+- LOTQ-0024: [Probability Foundations for Quant Research](../manuals/pdf/probability/lotq-0024-probability-foundations-for-quant-research.pdf)
+- LOTQ-0025: [Random Variables and Distributions](../manuals/pdf/probability/lotq-0025-random-variables-and-distributions.pdf)
 ## Statistics
 
-- Needs review
-
+- LOTQ-0014: [Confidence Intervals and Error Bounds](../manuals/pdf/statistics/lotq-0014-confidence-intervals-and-error-bounds.pdf)
+- LOTQ-0017: [Descriptive Statistics for Market Data](../manuals/pdf/statistics/lotq-0017-descriptive-statistics-for-market-data.pdf)
+- LOTQ-0020: [Hypothesis Testing and Statistical Significance](../manuals/pdf/statistics/lotq-0020-hypothesis-testing-and-statistical-significance.pdf)
+- LOTQ-0021: [Multiple Regression and Feature Interpretation](../manuals/pdf/statistics/lotq-0021-multiple-regression-and-feature-interpretation.pdf)
+- LOTQ-0026: [Regression Foundations for Quant Research](../manuals/pdf/statistics/lotq-0026-regression-foundations-for-quant-research.pdf)
+- LOTQ-0027: [Sampling, Estimation, and Uncertainty](../manuals/pdf/statistics/lotq-0027-sampling-estimation-and-uncertainty.pdf)
 ## Research Methodology
 
-- Needs review
-
+- LOTQ-0023: [Overfitting, Noise, and Statistical Illusions](../manuals/pdf/research-methodology/lotq-0023-overfitting-noise-and-statistical-illusions.pdf)
 ## Time Series
 
-- Needs review
-
+- LOTQ-0012: [Autocorrelation and Mean Reversion](../manuals/pdf/time-series/lotq-0012-autocorrelation-and-mean-reversion.pdf)
+- LOTQ-0028: [Stationarity, Trends, and Regime Changes](../manuals/pdf/time-series/lotq-0028-stationarity-trends-and-regime-changes.pdf)
+- LOTQ-0029: [Time Series Basics for Price Data](../manuals/pdf/time-series/lotq-0029-time-series-basics-for-price-data.pdf)
+- LOTQ-0030: [Volatility Modeling Foundations](../manuals/pdf/time-series/lotq-0030-volatility-modeling-foundations.pdf)
 ## Data Engineering
 
 - Needs review
