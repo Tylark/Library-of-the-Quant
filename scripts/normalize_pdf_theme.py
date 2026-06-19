@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import io
-import re
 from pathlib import Path
 from textwrap import wrap
 
@@ -195,134 +194,6 @@ def make_cover(meta: dict[str, str], width: float, height: float) -> bytes:
     return packet.read()
 
 
-def make_toc_overlay(meta: dict[str, str], width: float, height: float, continued: bool) -> bytes:
-    packet = io.BytesIO()
-    c = canvas.Canvas(packet, pagesize=(width, height))
-    margin = 42
-
-    c.setFillColor(colors.white)
-    c.rect(0, height - 108, width, 108, fill=1, stroke=0)
-    c.rect(0, 0, width, 42, fill=1, stroke=0)
-    c.setFillColor(NAVY)
-    c.roundRect(margin, height - 72, width - 2 * margin, 42, 8, fill=1, stroke=0)
-
-    c.setFillColor(colors.HexColor("#9DB8DB"))
-    c.setFont("Helvetica-Bold", 7)
-    crumb = f"{meta['category'].upper()} / {meta['difficulty'].upper()} / FRONT MATTER"
-    c.drawString(margin + 14, height - 45, crumb)
-
-    c.setFillColor(colors.white)
-    c.setFont("Helvetica-Bold", 16)
-    title = "Table of Contents" + (" (continued)" if continued else "")
-    c.drawString(margin + 14, height - 62, title)
-
-    c.setStrokeColor(colors.HexColor("#EDF1F7"))
-    c.setLineWidth(1)
-    c.line(margin, height - 100, width - margin, height - 100)
-
-    c.setFillColor(MUTED)
-    c.setFont("Helvetica", 7)
-    c.drawString(margin, 26, f"Library of the Quant - {meta['title']}")
-    c.showPage()
-    c.save()
-    packet.seek(0)
-    return packet.read()
-
-
-def make_toc_page(meta: dict[str, str], width: float, height: float, continued: bool, entries: list[tuple[str, str]]) -> bytes:
-    packet = io.BytesIO()
-    c = canvas.Canvas(packet, pagesize=(width, height))
-    margin = 42
-
-    c.setFillColor(colors.white)
-    c.rect(0, 0, width, height, fill=1, stroke=0)
-
-    c.setFillColor(NAVY)
-    c.roundRect(margin, height - 72, width - 2 * margin, 42, 8, fill=1, stroke=0)
-    c.setFillColor(colors.HexColor("#9DB8DB"))
-    c.setFont("Helvetica-Bold", 7)
-    crumb = f"{meta['category'].upper()} / {meta['difficulty'].upper()} / FRONT MATTER"
-    c.drawString(margin + 14, height - 45, crumb)
-    c.setFillColor(colors.white)
-    c.setFont("Helvetica-Bold", 16)
-    c.drawString(margin + 14, height - 62, "Table of Contents" + (" (continued)" if continued else ""))
-
-    c.setStrokeColor(colors.HexColor("#EDF1F7"))
-    c.setLineWidth(1)
-    c.line(margin, height - 100, width - margin, height - 100)
-
-    c.setFillColor(INK)
-    c.setFont("Helvetica-Bold", 10)
-    c.drawString(margin, height - 126, "Manual map")
-    c.setFont("Helvetica", 7.5)
-    c.setFillColor(MUTED)
-    c.drawString(margin, height - 146, "Each entry is a full-width, single reading path reference card.")
-
-    y = height - 178
-    row_gap = 17 if len(entries) <= 32 else 14
-    font_size = 8.5 if len(entries) <= 32 else 7.2
-    for title, page_no in entries:
-        if y < 54:
-            break
-        if not title:
-            continue
-        title = title[:92]
-        c.setFillColor(INK)
-        c.setFont("Helvetica", font_size)
-        c.drawString(margin, y, title)
-        c.setStrokeColor(colors.HexColor("#2A2F38"))
-        c.setLineWidth(0.7)
-        c.line(margin + 180, y - 2, width - margin - 26, y - 2)
-        c.setFillColor(INK)
-        c.drawRightString(width - margin, y, page_no)
-        y -= row_gap
-
-    c.setFillColor(MUTED)
-    c.setFont("Helvetica", 7)
-    c.drawString(margin, 26, f"Library of the Quant - {meta['title']}")
-    c.showPage()
-    c.save()
-    packet.seek(0)
-    return packet.read()
-
-
-def is_toc_page(text: str) -> bool:
-    normalized = re.sub(r"\s+", " ", text.lower())
-    return "table of contents" in normalized
-
-
-def is_simple_toc(text: str) -> bool:
-    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-    return bool(lines) and lines[0].lower().startswith("table of contents")
-
-
-def parse_simple_toc_entries(text: str) -> list[tuple[str, str]]:
-    lines = [ln.strip().replace("\x7f", " ") for ln in text.splitlines() if ln.strip()]
-    cleaned: list[str] = []
-    for line in lines:
-        low = line.lower()
-        if low.startswith("table of contents"):
-            continue
-        if low in {"page", "section", "concept"}:
-            continue
-        cleaned.append(line)
-
-    entries: list[tuple[str, str]] = []
-    pending: str | None = None
-    for line in cleaned:
-        if re.fullmatch(r"\d{1,3}", line):
-            if pending:
-                entries.append((pending, line))
-                pending = None
-            continue
-        if pending:
-            entries.append((pending, ""))
-        pending = line
-    if pending:
-        entries.append((pending, ""))
-    return entries
-
-
 def normalize_pdf(pdf: Path) -> None:
     meta = MANUALS[pdf.name]
     reader = PdfReader(str(pdf))
@@ -333,18 +204,7 @@ def normalize_pdf(pdf: Path) -> None:
     cover_reader = PdfReader(io.BytesIO(make_cover(meta, width, height)))
     writer.add_page(cover_reader.pages[0])
 
-    toc_seen = 0
-    for index, page in enumerate(reader.pages[1:], start=1):
-        text = page.extract_text() or ""
-        if is_toc_page(text):
-            toc_seen += 1
-            if is_simple_toc(text):
-                entries = parse_simple_toc_entries(text)
-                toc_page = PdfReader(io.BytesIO(make_toc_page(meta, width, height, toc_seen > 1, entries))).pages[0]
-                writer.add_page(toc_page)
-                continue
-            overlay = PdfReader(io.BytesIO(make_toc_overlay(meta, width, height, toc_seen > 1))).pages[0]
-            page.merge_page(overlay)
+    for page in reader.pages[1:]:
         writer.add_page(page)
 
     tmp = pdf.with_suffix(".normalized.tmp.pdf")
