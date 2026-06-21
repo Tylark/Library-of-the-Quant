@@ -3,3 +3,4 @@
 - LOTQ-0028: Stationarity, Trends, and Regime Changes
 - LOTQ-0029: Time Series Basics for Price Data
 - LOTQ-0030: Volatility Modeling Foundations
+- LOTQ-0037: Forecasting Models for Financial Time Series

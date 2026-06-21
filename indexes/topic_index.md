@@ -56,37 +56,49 @@ Lookup index organized by subject area.
 - LOTQ-0028: [Stationarity, Trends, and Regime Changes](../manuals/pdf/time-series/lotq-0028-stationarity-trends-and-regime-changes.pdf)
 - LOTQ-0029: [Time Series Basics for Price Data](../manuals/pdf/time-series/lotq-0029-time-series-basics-for-price-data.pdf)
 - LOTQ-0030: [Volatility Modeling Foundations](../manuals/pdf/time-series/lotq-0030-volatility-modeling-foundations.pdf)
+- LOTQ-0037: [Forecasting Models for Financial Time Series](../manuals/pdf/time-series/lotq-0037-forecasting-models-for-financial-time-series.pdf)
 ## Data Engineering
 
-- Needs review
+- LOTQ-0034: [Data Pipelines for Quant Research Systems](../manuals/pdf/data-engineering/lotq-0034-data-pipelines-for-quant-research-systems.pdf)
+- LOTQ-0039: [Market Data Types and Data Structures](../manuals/pdf/data-engineering/lotq-0039-market-data-types-and-data-structures.pdf)
+- LOTQ-0046: [Research Databases and Market Data Storage](../manuals/pdf/data-engineering/lotq-0046-research-databases-and-market-data-storage.pdf)
 
 ## Data Cleaning
 
-- Needs review
+- LOTQ-0033: [Data Cleaning for Quant Research](../manuals/pdf/data-cleaning/lotq-0033-data-cleaning-for-quant-research.pdf)
+- LOTQ-0041: [Missing Data, Outliers, and Bad Ticks](../manuals/pdf/data-cleaning/lotq-0041-missing-data-outliers-and-bad-ticks.pdf)
 
 ## Feature Engineering
 
-- Needs review
+- LOTQ-0036: [Feature Engineering for Trading Signals](../manuals/pdf/feature-engineering/lotq-0036-feature-engineering-for-trading-signals.pdf)
+- LOTQ-0038: [Labeling, Targets, and Prediction Horizons](../manuals/pdf/feature-engineering/lotq-0038-labeling-targets-and-prediction-horizons.pdf)
 
 ## Python for Quant Research
 
-- Needs review
+- LOTQ-0044: [Pandas and NumPy for Market Data](../manuals/pdf/python-for-quant-research/lotq-0044-pandas-and-numpy-for-market-data.pdf)
+- LOTQ-0045: [Python Foundations for Quant Research](../manuals/pdf/python-for-quant-research/lotq-0045-python-foundations-for-quant-research.pdf)
+- LOTQ-0049: [Vectorized Research Workflows in Python](../manuals/pdf/python-for-quant-research/lotq-0049-vectorized-research-workflows-in-python.pdf)
 
 ## Strategy Development
 
-- Needs review
+- LOTQ-0035: [Factor Signals and Cross-Sectional Ranking](../manuals/pdf/strategy-development/lotq-0035-factor-signals-and-cross-sectional-ranking.pdf)
+- LOTQ-0040: [Mean Reversion and Spread-Based Signals](../manuals/pdf/strategy-development/lotq-0040-mean-reversion-and-spread-based-signals.pdf)
+- LOTQ-0042: [Momentum, Trend, and Breakout Signals](../manuals/pdf/strategy-development/lotq-0042-momentum-trend-and-breakout-signals.pdf)
+- LOTQ-0047: [Signal Research and Strategy Ideation](../manuals/pdf/strategy-development/lotq-0047-signal-research-and-strategy-ideation.pdf)
 
 ## Backtesting
 
-- Needs review
+- LOTQ-0031: [Backtesting Biases and Research Errors](../manuals/pdf/backtesting/lotq-0031-backtesting-biases-and-research-errors.pdf)
+- LOTQ-0032: [Backtesting Foundations for Quant Research](../manuals/pdf/backtesting/lotq-0032-backtesting-foundations-for-quant-research.pdf)
+- LOTQ-0048: [Transaction Costs, Slippage, and Liquidity](../manuals/pdf/backtesting/lotq-0048-transaction-costs-slippage-and-liquidity.pdf)
 
 ## Validation
 
-- Needs review
+- LOTQ-0050: [Walk-Forward Testing and Out-of-Sample Validation](../manuals/pdf/validation/lotq-0050-walk-forward-testing-and-out-of-sample-validation.pdf)
 
 ## Simulation
 
-- Needs review
+- LOTQ-0043: [Monte Carlo Simulation for Strategy Testing](../manuals/pdf/simulation/lotq-0043-monte-carlo-simulation-for-strategy-testing.pdf)
 
 ## Risk Management
 
